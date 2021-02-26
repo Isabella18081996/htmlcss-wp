@@ -16,6 +16,15 @@ nav li{
   padding-right: 10px;
 }
 
+nav li a{
+  color: #9E9E9E;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li a:hover{
+  color:black;
+}
 
 .clearfix::after{
   content: "";
@@ -26,57 +35,67 @@ nav li{
 .container{
   width: 80%;
   margin: 0 auto;
-  background-color: red;
+  /* background-color: rgb(206, 164, 164); */
   margin-top: 0;
 }
 
 .logo{
   margin-top: 0;
-  background-color: pink;
+ /*  background-color: pink; */
+  margin-bottom: 20px;
 }
 
 .logo-img{
-  width: 20%;
-  padding: 2%;
+  width: 15%;
+  padding-top: 0;
   border-right: 1px solid #E9E9E9;
 
 }
 
 nav{
-  background-color: yellow;
-  margin-bottom: 20px;
-  color: #9E9E9E;
+/*   background-color: yellow; */
+  margin-bottom: 35px;
+
 }
 
 .banner{
-  background-color: tomato;
+/*   background-color: tomato; */
   margin-bottom: 20px;
   background-image:url("img/banner.jpg");
   background-size: cover;
   width: 100%;
-  height: 450px;
+  height: 420px;
   background-position: center;
   border-radius: 2%;
+  
 }
 
-
+.banner-text{
+  width: 55%;
+  height: 200px;
+  padding-top: 250px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  color: #FEFDFD;
+}
 
 main{
-  background-color: yellowgreen;
+/*   background-color: yellowgreen; */
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
 .title{
 
-  margin-bottom: 20px;
-  background-color: turquoise;
+  margin-bottom: 35px;
+/*   background-color: turquoise; */
 }
 
 .col{
   float: left;
-  background-color: wheat;
+/*   background-color: wheat; */
   height: 600px;
+  color: gray;
 }
 
 
@@ -99,28 +118,52 @@ footer{
   border-radius: 15px;
   margin-bottom: 20px;
   background-size: cover;
-  background-position: center;
+/*   background-position: center; */
 }
 
 .left{
   background-image: url(img/img-1.jpg);
-/*   background-size: cover;
-  background-position: center; */
+  background-size: cover;
+  background-position: center;
 }
 
 .center{
   background-image: url(img/banner-2.jpg);
-/*   background-size: cover;
-  background-position: center; */
+  background-size: cover;
+  background-position: center;
 }
 
 .right{
   background-image: url(img/img-2.jpg);
-/*   background-size: cover;
-  background-position: center; */
+  background-size: cover;
+  background-position: right;
 
 }
 
-main h4{
+main h5{
   margin-bottom: 10px;
+  color:#747475;
 }
+
+main p{
+  font-size: 15px;
+}
+
+
+
+.heart::after {
+  content: "\2665";
+  color: red;
+}
+
+
+h1{
+  font: weight 500px;;
+}
+
+/* .background{
+  height: 100%;
+  background-color: black;
+  opacity: 25%;
+  border-radius: 2%;
+} */
