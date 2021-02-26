@@ -49,6 +49,7 @@ nav li a:hover{
   width: 15%;
   padding-top: 0;
   border-right: 1px solid #E9E9E9;
+  padding-right: 20px;
 
 }
 
@@ -73,10 +74,10 @@ nav{
 .banner-text{
   width: 55%;
   height: 200px;
-  padding-top: 250px;
+  padding-top: 260px;
   padding-left: 50px;
   padding-bottom: 10px;
-  color: #FEFDFD;
+  color: white;
 }
 
 main{
@@ -110,6 +111,7 @@ main{
 
 footer{
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .immagine {
@@ -154,6 +156,8 @@ main p{
 .heart::after {
   content: "\2665";
   color: red;
+  font-size: 20px;
+
 }
 
 
@@ -161,9 +165,9 @@ h1{
   font: weight 500px;;
 }
 
-/* .background{
+.background{
   height: 100%;
   background-color: black;
   opacity: 25%;
   border-radius: 2%;
-} */
+}
