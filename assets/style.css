@@ -1,0 +1,126 @@
+/* GLOBAL */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
+  margin-top: 0;
+}
+
+.logo{
+  margin-top: 0;
+  background-color: pink;
+}
+
+.logo-img{
+  width: 20%;
+  padding: 2%;
+  border-right: 1px solid #E9E9E9;
+
+}
+
+nav{
+  background-color: yellow;
+  margin-bottom: 20px;
+  color: #9E9E9E;
+}
+
+.banner{
+  background-color: tomato;
+  margin-bottom: 20px;
+  background-image:url("img/banner.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  border-radius: 2%;
+}
+
+
+
+main{
+  background-color: yellowgreen;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.title{
+
+  margin-bottom: 20px;
+  background-color: turquoise;
+}
+
+.col{
+  float: left;
+  background-color: wheat;
+  height: 600px;
+}
+
+
+.col-left, .col-right{
+  width: 20%;
+}
+
+.col-center {
+  width: 56%;
+  margin: 0 2%;
+}
+
+footer{
+  text-align: center;
+}
+
+.immagine {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.left{
+  background-image: url(img/img-1.jpg);
+/*   background-size: cover;
+  background-position: center; */
+}
+
+.center{
+  background-image: url(img/banner-2.jpg);
+/*   background-size: cover;
+  background-position: center; */
+}
+
+.right{
+  background-image: url(img/img-2.jpg);
+/*   background-size: cover;
+  background-position: center; */
+
+}
+
+main h4{
+  margin-bottom: 10px;
+}
